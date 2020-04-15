@@ -1,0 +1,40 @@
+/*放置整站通用样式*/
+.clear:after{/*清除浮动*/
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.clear{/*为IE6，7的兼容性设置*/
+    *zoom:1;
+}
+.wraper{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.mb{
+    margin-bottom: 28px;
+}
+.mt20{
+     margin-top: 20px;
+ }
+.mt22{
+    margin-top: 22px;
+}
+.mt27{
+    margin-top: 27px;
+}
+.mt28{
+    margin-top: 28px;
+}
+.pb{
+    padding-bottom: 30px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mt30{
+    margin-top: 30;
+}

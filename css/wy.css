@@ -1,0 +1,77 @@
+/*通用样式------------------------------------------------------------------------*/
+.clear:after{/*清除浮动*/
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.clear{/*为IE6，7的兼容性设置*/
+    *zoom:1;
+}
+body{
+    /*background-color: blue;*/
+    background-image: url("../image/beijingtu.png");
+    /*position: fixed;*/
+    background-repeat: no-repeat;
+    background-position: 72% 14%;
+}
+.wraper{
+    width: 1000px;
+    margin: 0 auto;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mt32{
+    margin-top: 32px;
+}
+/*通用结束-----------------------------------------------------------------------*/
+/*LOGO开始-----------------------------------------------------------------------*/
+.header{
+    height: 46px;
+    margin-top: 32px;
+    padding: 12px 0 10px;
+}
+.header div .logo a{
+    float: left;
+    width: 182px;
+    height: 51px;
+    background-image: url("../image/shangwangdaohang.png");
+    text-indent: -999px;
+}
+.header div .logo1{
+    float: right;
+    line-height: 46px;
+}
+/*LOGO结束------------------------------------------------------------------------*/
+/*head开始----------------------------------------------------------------------*/
+.head{
+    height: 88px;
+    background-color: rgba(0, 0, 0, 0.23);
+}
+.head > div{
+    width: 881px;
+    /*height: 34px;*/
+    padding: 16px 0 0 83px;
+}
+.head .engineList a{
+    float: left;
+    width: 110px;
+    height: 33px;
+    color: #333;
+    background-image: url("../image/sougousousuo.png");
+    overflow: hidden;
+    text-indent: -999px;
+}
+.head .engineList .engineMenuBtn{
+    float: left;
+    width: 9px;
+    height: 5px;
+    background-image: url("../image/shangwangxuehuatu.png");
+    background-position: -10px -1230px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 15px 0 0 7px;
+}
+/*head结束----------------------------------------------------------------------*/
